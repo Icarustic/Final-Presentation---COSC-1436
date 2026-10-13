@@ -8,5 +8,5 @@
 4. Create the translations between simulated engines and the PID systems (i.e. digital value to rotational speed). Along with additional logic for vehicles with multiple propellors.
 5. Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
 6. Walker PID System: PID controls the stability of the torso, the legs follow a gait cycle which is modified by the PID system
-// Might need to reconsider because a lot of these systems are already built into the simulation so coding them would be unnecessary, at least for the walker since its joints already include a pid system.
+> // Might need to reconsider because a lot of these systems are already built into the simulation so coding them would be unnecessary, at least for the walker since its joints already include a pid system.
 
