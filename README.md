@@ -9,4 +9,6 @@
 5. Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
 6. Walker PID System: PID controls the stability of the torso, the legs follow a gait cycle which is modified by the PID system
 > // Might need to reconsider because a lot of these systems are already built into the simulation so coding them would be unnecessary, at least for the walker since its joints already include a pid system.
+> //Gait Cycle by itself would be its own project.
 
+1. **Arm Functions**: Random pre coded movements that allow a mechanical arm to complete some tasks, such as throwing, picking and despositing, etc.
