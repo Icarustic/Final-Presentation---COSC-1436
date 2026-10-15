@@ -8,11 +8,12 @@
 >> Description: Amount of Error to fix + Error amount times how long it has happened (helps correct persistent error overtime) + All Changes in Error divided by the time they occur (This Smoothens the change between the corrections to make it more gradualy transition between states/positions.) (Helps remove oscillation since the program doesn't overshoot the setpoint.)
 ---
 - **Implementation**:
-- PID Systems: Each regulated value require their own PID system to manage.
+- *PID Systems*: Each regulated value require their own PID system to manage.
 > - Pitch
 > - Yaw
 > - Roll
 > - Altitude/Height
+- *Translation/Communication*: How does the drone communicate its orientation with the program/computer.
 - Create the translations between simulated engines and the PID systems (i.e. digital value to rotational speed). Along with additional logic for vehicles with multiple propellors.
 - Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
 
