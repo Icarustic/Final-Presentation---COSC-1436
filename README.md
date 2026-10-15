@@ -20,7 +20,7 @@
 > 4. Altitude Sensor & Rotational Speed Controller
 - ***Caveats***: Special considerations for the project.
 > - Redstone has a maximum range of 0-15, as such when trying to communicate numerical values, they have to be translated to be accurately represented in game.
-> - Simplified Physics, working both the benefit and determent of the drone.
+> - Simplified Physics, works both to the benefit and determent of the drone.
 > - Make a port of the Lua Script code in C++, to help in understanding the code.
 
 
