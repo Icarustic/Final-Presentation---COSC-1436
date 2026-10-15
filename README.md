@@ -9,10 +9,10 @@
 ---
 - **Implementation**:
 - PID Systems: Each regulated value require their own PID system to manage.
-> Pitch
-> Yaw
-> Roll
-> Altitude/Height
+> - Pitch
+> - Yaw
+> - Roll
+> - Altitude/Height
 - Create the translations between simulated engines and the PID systems (i.e. digital value to rotational speed). Along with additional logic for vehicles with multiple propellors.
 - Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
 
