@@ -9,11 +9,16 @@
 ---
 - **Implementation**:
 - *PID Systems*: Each regulated value require their own PID system to manage.
-> - Pitch
-> - Yaw
-> - Roll
-> - Altitude/Height
+> 1. Pitch
+> 2. Roll
+> 3. Yaw Note: Drones turn using CW and CCW spinning propellors, 2 for each diagonally, as CWW speeds up CW slows down leading to turning.
+> 4. Altitude/Speed
 - *Translation/Communication*: How does the drone communicate its orientation with the program/computer.
-- Create the translations between simulated engines and the PID systems (i.e. digital value to rotational speed). Along with additional logic for vehicles with multiple propellors.
-- Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
+> 1. Gimbal Sensor & Propellors Geardrive
+> 2. Gimbal Sensor & Propellors Geardrive
+> 3. Compass Sensor Add on & External Rotation Source
+> 4. Altitude Sensor Block & Rotational Speed Controller
+- 
+
+
 
