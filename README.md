@@ -18,7 +18,10 @@
 > 2. Gimbal Sensor & Propellors Geardrive
 > 3. Compass Sensor Add on & External Rotation Source
 > 4. Altitude Sensor Block & Rotational Speed Controller
-- 
+- *Caveats*: Special considerations for the project.
+> - Redstone has a maximum range of 0-15, as such when trying to communicate numerical values, they have to be translated to be accurately represented in game.
+> - Simplified Physics, working both the benefit and determent of the drone.
+> - Make a port of the Lua Script code in C++, to help in understanding the code.
 
 
 
