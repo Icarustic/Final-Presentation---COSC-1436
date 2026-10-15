@@ -2,7 +2,7 @@
 ---
 ### Overveiw:
 - What is a Pid System?
-- **PID System**: Automatically stabilize and balance contraptions
+- **PID System**: Tries to correct the difference between the current value and the desired value using a formula. In the case of drones this helps maintain its orientation.
 -  Structured by `Error = Setpoint - Measurement or Change = DesiredPosition - CurrentPosition.`
 > Formula: `Total Correction = (Proportional_Intensity * Error) + (Integral_Intensity * Sum {Error * Time}) + (Derivative_Intensity * ((CurrentError - LastError) / Time))`
 >> Description: Amount of Error to fix + Error amount times how long it has happened (helps correct persistent error overtime) + All Changes in Error divided by the time they occur (This Smoothens the change between the corrections to make it more gradualy transition between states/positions.) (Helps remove oscillation since the program doesn't overshoot the setpoint.)
