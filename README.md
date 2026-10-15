@@ -8,4 +8,3 @@
 - Create the translations between simulated engines and the PID systems (i.e. digital value to rotational speed). Along with additional logic for vehicles with multiple propellors.
 - Helicopter PID System: Changes propellor speed and directional tilt (for traditional versions). Airplane PID System: Changes throttle, aileron and flap angles.
 
-2. **Arm Functions**: Random pre coded movements that allow a mechanical arm to complete some tasks, such as throwing, picking and despositing, etc.
