@@ -1,7 +1,6 @@
 ## Final-Presentation Project: PID System for a Simulated Drone.
 ---
 ### Overveiw:
----
 - What is a Pid System?
 - **PID System**: Tries to correct the difference between the current value and the desired value using a formula. In the case of drones this helps maintain its orientation.
 -  Structured by `Error = Setpoint - Measurement or Change = DesiredPosition - CurrentPosition.`
