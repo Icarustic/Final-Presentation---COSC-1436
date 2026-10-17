@@ -24,6 +24,10 @@
 > - Create a C++ program, then port it into Lua Scripts.
 ### Design
 <img width="762" height="571" alt="image" src="https://github.com/user-attachments/assets/c94c8ba9-97f4-4181-b6d5-337730610289" />
+<img width="762" height="572" alt="image" src="https://github.com/user-attachments/assets/41e666f6-9949-4c22-897b-8a9acaff872c" />
+<img width="832" height="512" alt="image" src="https://github.com/user-attachments/assets/9ad19c1f-468f-4bd1-aa28-3c34e9466b18" />
+
+
 
 
 
