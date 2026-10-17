@@ -11,7 +11,7 @@
 - ***PID Systems***: Each regulated value requires its own PID system to manage.
 > 1. Pitch
 > 2. Roll
-> 3. Yaw Note: Drones turn using CW and CCW spinning propellers, 2 for each diagonally, as CCW speeds up and CW slows down, leading to turning.
+> 3. Yaw Note: Drones turn using CW and CCW spinning propellers, 2 for each diagonal, where CCW speeds up and CW slows down, causing a turn.
 > 4. Altitude/Speed
 - ***Translation/Communication***: How does the drone communicate its orientation with the program/computer?
 > 1. Gimbal Sensor & Propeller Gear Drive
@@ -19,9 +19,10 @@
 > 3. Compass Sensor Add-on & External Rotation Source
 > 4. Altitude Sensor & Rotational Speed Controller
 - ***Caveats***: Special considerations for the project.
-> - Redstone has a maximum range of 0-15; as such, when trying to communicate numerical values, they have to be translated to be accurately represented in-game.
+> - Redstone has a maximum range of 0-15; therefore, when communicating numerical values, they must be translated to be accurately represented in-game.
 > - Simplified Physics works both to the benefit and detriment of the drone.
 > - Create a C++ program, then port it into Lua Scripts.
+---
 ### Design
 <img width="762" height="571" alt="image" src="https://github.com/user-attachments/assets/c94c8ba9-97f4-4181-b6d5-337730610289" />
 <img width="762" height="572" alt="image" src="https://github.com/user-attachments/assets/41e666f6-9949-4c22-897b-8a9acaff872c" />
