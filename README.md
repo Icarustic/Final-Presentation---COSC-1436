@@ -22,6 +22,8 @@
 > - Redstone has a maximum range of 0-15; as such, when trying to communicate numerical values, they have to be translated to be accurately represented in-game.
 > - Simplified Physics works both to the benefit and detriment of the drone.
 > - Create a C++ program, then port it into Lua Scripts.
+### Design
+<img width="762" height="571" alt="image" src="https://github.com/user-attachments/assets/c94c8ba9-97f4-4181-b6d5-337730610289" />
 
 
 
